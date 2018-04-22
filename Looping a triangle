@@ -1,0 +1,2 @@
+for (var x = "#"; x.length < 8; x = x + "#")
+console.log(x);
