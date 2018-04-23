@@ -12,7 +12,7 @@ for ( var y = 0; y < size; y++) {
 
  console.log(z);
 
-var size = (prompt("Pick a number"));
+var size = prompt("Pick a number");
 var z = "";
 for ( var y = 0; y < size; y++) {
  for ( var x = 0; x < size; x++) {
