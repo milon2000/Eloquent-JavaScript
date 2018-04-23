@@ -1,0 +1,10 @@
+function letter(string, l) {
+ var counter = 0;
+ for (var i = 0; i < string.length; i++) {
+ if (string[i]==l) {
+ counter= counter + 1; }
+ }
+  return counter;
+}
+
+console.log(letter("tata", "t"));
