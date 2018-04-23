@@ -1,0 +1,27 @@
+var size = 8;
+var z = "";
+for ( var y = 0; y < size; y++) {
+ for ( var x = 0; x < size; x++) {
+  if ((x + y) % 2 == 0) {
+  z = z + " ";
+  } else {z = z + "#";}
+ }
+   z = z + "\n";
+
+}
+
+ console.log(z);
+
+var size = (prompt("Pick a number"));
+var z = "";
+for ( var y = 0; y < size; y++) {
+ for ( var x = 0; x < size; x++) {
+  if ((x + y) % 2 == 0) {
+  z = z + " ";
+  } else {z = z + "#";}
+ }
+   z = z + "\n";
+
+}
+
+ console.log(z);
