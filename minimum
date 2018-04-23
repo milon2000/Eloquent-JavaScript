@@ -1,0 +1,7 @@
+function mini(x, y) {
+ if (x<y) return x;
+  else return y;
+}
+
+console.log(mini(5, 10));
+console.log(mini(656, 565));
